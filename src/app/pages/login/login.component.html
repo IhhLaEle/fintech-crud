@@ -6,7 +6,7 @@
         <label for="input-senha">Senha</label><br>
         <input class="input-simples" id="input-senha" name="input-senha" type="password" placeholder="Digite sua senha"
             (keyup)="validarFormulario()" [(ngModel)]="senha"/>
-        <button class="input-submeter" [disabled]="botaoDesabilitado"  (click)="onBotaoClicado()"fazerLogin()>
+        <button class="input-submeter" [disabled]="botaoDesabilitado"  (click)="fazerLogin()"fazerLogin()>
             Confirmar
         </button>
     </form>
