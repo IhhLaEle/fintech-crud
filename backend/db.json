@@ -1,0 +1,22 @@
+{
+  "clientes": [
+    {
+      "cpf": "89044387869",
+      "nome": "Joao campos",
+      "sobrenome": "araujo",
+      "dataNascimento": "2026-10-09",
+      "email": "joao@email.com",
+      "senha": "09865421",
+      "id": 1
+    },
+    {
+      "cpf": "89044387869",
+      "nome": "Joao araujo",
+      "sobrenome": "campos",
+      "dataNascimento": "2026-10-02",
+      "email": "jota@email.com",
+      "senha": "12356790",
+      "id": 2
+    }
+  ]
+}
