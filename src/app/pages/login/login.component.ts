@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -11,9 +12,8 @@ export class LoginComponent {
   onBotaoClicado() {//metodos
     alert("confirmado!")
   }
-  teclaSolta(evento: KeyboardEvent): void {
-    alert(`o usuario digitou ${evento.key}`)
-  }
+
+  constructor(private router: Router) { };
   botaoDesabilitado: boolean = true;//atributos
   login: string = '';
   senha: string = '';
@@ -28,8 +28,9 @@ export class LoginComponent {
   }
 
   fazerLogin() {
-    if (this.login === "admin@email.com" && this.senha == "123") {
+    if (this.login === "admin@email.com" && this.senha === "123") {
       alert("Bem vindo(a) admin")
+      this.router.navigate(['/admin-clientes-listar']);
     } else {
       alert("credenciais ivalidas")
 
