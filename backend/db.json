@@ -2,21 +2,12 @@
   "clientes": [
     {
       "cpf": "89044387869",
-      "nome": "Joao campos",
-      "sobrenome": "araujo",
-      "dataNascimento": "2026-10-09",
+      "nome": "JHON",
+      "sobrenome": "PORK",
+      "dataNascimento": "2026-10-16",
       "email": "joao@email.com",
-      "senha": "09865421",
+      "senha": "12",
       "id": 1
-    },
-    {
-      "cpf": "89044387869",
-      "nome": "Joao araujo",
-      "sobrenome": "campos",
-      "dataNascimento": "2026-10-02",
-      "email": "jota@email.com",
-      "senha": "12356790",
-      "id": 2
     }
   ]
 }
